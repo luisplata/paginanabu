@@ -1,4 +1,0 @@
-otrapruebapara el mensaje, con comas, puntos. puntos y comas; para ver como los asume
-y saltos de linea :vLuis Enrque Plata Osoriowww.luisplata@gmail.comcomas, puntos. saltos de linea
-puntos y comas;
-otro caracter especial[``
