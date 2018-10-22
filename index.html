@@ -129,9 +129,10 @@
 				function mostrarMensajes(){
 					var mensaje = getUrlVars('mensaje');
 					var tipo = getUrlVars('tipo');
+					var tiempo = getUrlVars('tiempo')==null?5:getUrlVars('tiempo');
 					if(mensaje != null){
 						tipo = tipo==null || tipo==""?"info":tipo;
-						var notification = alertify.notify(mensaje, tipo, 5, function(){  console.log('dismissed'); });
+						var notification = alertify.notify(mensaje, tipo, tiempo, function(){  console.log('dismissed'); });
 					}
 					
 				}
